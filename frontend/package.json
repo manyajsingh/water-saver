@@ -14,15 +14,16 @@
   "description": "",
   "dependencies": {
     "@rainbow-me/rainbowkit": "^2.2.3",
-    "autoprefixer": "^10.4.20",
+    "@shadcn/ui": "^0.0.4",
     "axios": "^1.7.9",
+    "clsx": "^2.1.1",
     "ethers": "^6.13.5",
-    "postcss": "^8.5.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "lucide-react": "^0.475.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "^5.0.1",
-    "tailwindcss": "^4.0.6",
     "wagmi": "^2.14.11"
   },
   "browserslist": {
@@ -36,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6"
   }
 }
