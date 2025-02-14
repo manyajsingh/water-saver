@@ -1,0 +1,87 @@
+.leaderboard-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leaderboard-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0288d1;
+  }
+  
+  /* Leaderboard Header */
+  .leaderboard-header {
+    background: linear-gradient(to right, #0cbf52, #028a3d);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  /* Leaderboard Table */
+  .leaderboard-table {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  thead {
+    background: #f1f5f9;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background: #f9f9f9;
+  }
+  
+  /* Level Badge Colors */
+  .level-gold {
+    background: gold;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .level-silver {
+    background: silver;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .level-bronze {
+    background: #cd7f32;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  

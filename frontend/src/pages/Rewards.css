@@ -1,0 +1,142 @@
+.rewards-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rewards-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0288d1;
+  }
+  
+  /* Rewards Grid */
+  .rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Rewards Cards */
+  .rewards-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    border: 2px solid #e0e0e0;
+  }
+  
+  .rewards-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Wallet Button */
+  .wallet-btn {
+    background: #2979ff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .wallet-btn:hover {
+    background: #1565c0;
+  }
+  
+  .wallet-connected {
+    font-size: 14px;
+    color: #4caf50;
+  }
+  
+  /* Reward Balance */
+  .balance-card {
+    border: 2px solid #4caf50;
+  }
+  
+  .reward-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #0277bd;
+  }
+  
+  .subtext {
+    color: gray;
+    font-size: 14px;
+  }
+  
+  /* Recent Transactions */
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0288d1;
+    margin-top: 30px;
+  }
+  
+  .transactions-card {
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .no-data {
+    color: gray;
+  }
+  
+  /* Available Rewards */
+  .rewards-info {
+    background: #fffde7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .no-rewards {
+    color: #ff9800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .warning-icon {
+    font-size: 18px;
+    color: #ff9800;
+  }
+  
+  .reward-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #4caf50;
+  }
+  
+  .reward-icon {
+    font-size: 18px;
+    color: #4caf50;
+  }
+  
